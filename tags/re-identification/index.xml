@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Re-Identification on Régine Cicéron</title>
+		<link>http://localhost:1313/tags/re-identification/</link>
+		<description>Recent content in Re-Identification on Régine Cicéron</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 23 Oct 2026 22:41:10 +0530</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/re-identification/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Behind the Data: The Ethical Dilemma of an “Anonymous” Survey</title>
+				<link>http://localhost:1313/blogs/placeholder-text/</link>
+				<pubDate>Fri, 23 Oct 2026 22:41:10 +0530</pubDate>
+				<guid>http://localhost:1313/blogs/placeholder-text/</guid>
+				<description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Data helps organizations evaluate programs, identify problems, and make informed decisions.&#xA;However, collecting and analyzing data also creates ethical responsibilities. Data professionals must consider not only what can be done with information, but what should be done with it.&#xA;In this scenario, participants complete a ten-question survey after finishing a course. They access the survey through a temporary URL and must log in with their organizational username and password. Although participants provide the course name rather than their own names, the survey promises that their answers will remain anonymous. Executive management wants to use these results to identify courses that need redesign or updating.&#xA;At first glance, this appears to be a normal course evaluation. From a data science ethics perspective, however, several issues emerge. Important ethical concepts include privacy, anonymity, transparency, bias, and fairness.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
