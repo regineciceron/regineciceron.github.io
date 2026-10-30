@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href="/fav.png" type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+<meta property="og:url" content="http://localhost:1313/blogs/face_recognition/">
+	<meta property="og:site_name" content="Régine Cicéron">
+	<meta property="og:title" content="The Ethical Dilemma Behind Facial Recognition">
+	<meta property="og:description" content="Blogs">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="blogs">
+		<meta property="article:published_time" content="2026-10-30T22:41:10+05:30">
+		<meta property="article:modified_time" content="2026-10-30T22:41:10+05:30">
+		<meta property="article:tag" content="Facial Recognition">
+		<meta property="article:tag" content="Beneficence">
+		<meta property="article:tag" content="Non-Maleficence">
+		<meta property="article:tag" content="Justice">
+		<meta property="article:tag" content="Explicability">
+		<meta property="article:tag" content="Soft Ethics">
+
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="The Ethical Dilemma Behind Facial Recognition">
+	<meta name="twitter:description" content="Blogs">
+
+
+
+
+  
+    <link rel="alternate" hreflang="en" href="http://localhost:1313/blogs/face_recognition/" title="English">
+  
+  
+  <meta property="og:locale" content="en">
+  
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/language-switcher.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+<meta name="description" content="Blogs">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
+
+
+  
+  
+
+  <title>
+The Ethical Dilemma Behind Facial Recognition | Régine Cicéron
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.documentElement.classList.add('dark');
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.documentElement.classList.add('dark');
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                <img src="/fav.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                Régine Cicéron
+                
+            </a>
+
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Search...'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Search...' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#about" aria-label="about">
+                            About Me
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#experience"
+                            aria-label="experience">
+                            Experience
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#education"
+                            aria-label="education">
+                            Education
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#contact"
+                            aria-label="contact">
+                            Contact
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/blogs" title="Blog posts">
+                            
+                            Blog
+                        </a>
+                    </li>
+                    
+                    
+<li class="nav-item navbar-text dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button"
+        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+            🌐
+            <span class="d-none d-md-inline">English</span>
+        
+    </a>
+    <div class="dropdown-menu shadow-lg rounded" aria-labelledby="languageDropdown"><a class="dropdown-item text-center nav-link active" 
+               href="/" 
+               title="English">
+                English
+            </a><a class="dropdown-item text-center nav-link" 
+               href="/es/" 
+               title="Español">
+                Español
+            </a><a class="dropdown-item text-center nav-link" 
+               href="/fr/" 
+               title="Français">
+                Français
+            </a></div>
+</li>
+
+
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle" type="button" aria-label="Toggle dark mode">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">The Ethical Dilemma Behind Facial Recognition</h1>
+            <div class="text-center">
+              
+                Régine Cicéron
+                <small>|</small>
+              
+              Oct 30, 2026
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <div class="featured-image">
+            <img class="img-fluid mx-auto d-block" src="/images/post2.png" alt="The Ethical Dilemma Behind Facial Recognition">
+          </div>
+          
+          <article class="page-content  p-2">
+          <p>Facial recognition has become an increasingly common feature of everyday digital life. Instead of entering a password or personal identification number (PIN), users can simply look at their smartphones to unlock them. This technology is fast, convenient, and seemingly harmless. However, facial biometric data is fundamentally different from a conventional password. If a password is compromised, it can be changed. An individual cannot simply replace their face.
+This distinction raises an important ethical question: When I use facial recognition to unlock my smartphone, do I truly understand and control what happens to my biometric data?
+I may not fully understand where my facial data is stored, who has access to it, how long it is retained, or what happens to it if I decide to stop using facial recognition. These uncertainties illustrate broader ethical concerns surrounding biometric technologies, including privacy, informed consent, security, algorithmic bias, accountability, and individual autonomy.
+Examining these concerns through the principles of beneficence, non-maleficence, autonomy, justice, and explicability demonstrates why effective AI governance must extend beyond technical performance and legal compliance.</p>
+<h2 id="convenience-and-ethical-responsibility">Convenience and Ethical Responsibility</h2>
+<p>My case study begins with uncertainty about whether the facial information used to unlock my smartphone remains exclusively on the device or may be accessible to other organizations. This uncertainty highlights the ethical importance of transparency and explicability.
+A responsible AI system should enable users to understand how their personal information is handled. Individuals should receive clear and accessible information about what biometric data is collected, why it is required, where it is stored, who can access it, how long it is retained, and how it can be removed.
+This is particularly important because biometric data concerns an individual&rsquo;s physical identity. Consequently, informed consent should involve more than simply accepting terms and conditions. Users should have sufficient information to make informed decisions about the collection and use of their biometric data.
+In this context, ethical responsibility does not end when a user selects “I agree.” Meaningful consent requires both adequate information and genuine choice.</p>
+<h2 id="beneficence-ai-should-promote-human-well-being">Beneficence: AI Should Promote Human Well-Being</h2>
+<p>The first ethical principle applicable to this case is beneficence, which emphasizes the responsibility to promote benefits and human well-being.
+Facial authentication offers clear advantages. It can provide convenient access to a device and reduce dependence on passwords. However, beneficence should extend beyond convenience. A technology intended to benefit users should also protect their legitimate interests and support their ability to maintain meaningful control over their personal information.
+In my case, I should be able to understand how my biometric information is handled and have appropriate choices regarding its use. The benefits of facial recognition should therefore be balanced against potential risks to privacy, security, and personal autonomy.
+Technological convenience should not require individuals to surrender meaningful control over their identities.</p>
+<h2 id="non-maleficence-preventing-foreseeable-harm">Non-Maleficence: Preventing Foreseeable Harm</h2>
+<p>A closely related ethical principle is non-maleficence, which emphasizes the obligation to avoid or minimize harm.
+Facial recognition systems raise concerns about unauthorized access, cybersecurity breaches, unintended data linkage, and the potential misuse of biometric information. These risks demonstrate why organizations responsible for biometric technologies should incorporate privacy and security protections into the design and operation of their systems.
+Privacy-preserving approaches, such as federated learning, differential privacy, and homomorphic encryption, illustrate technical methods that may contribute to protecting data in appropriate contexts. Nevertheless, no single technique can eliminate every ethical or security risk. Appropriate safeguards must depend on the architecture, purpose, and risks associated with a particular system.
+The principle of non-maleficence therefore requires organizations to consider not only whether a technology functions effectively but also the consequences that may arise if it fails, is compromised, or is deliberately misused.</p>
+<h2 id="autonomy-preserving-meaningful-choice">Autonomy: Preserving Meaningful Choice</h2>
+<p>A third important ethical principle is autonomy, which refers to an individual&rsquo;s ability to make informed and independent decisions.
+In the context of facial recognition, autonomy requires that users have meaningful choices about whether their biometric information is collected and used. If I decide that I no longer want to use my face to unlock my smartphone and instead return to a PIN or another authentication method, I should be able to understand the consequences of that decision.
+For example, important questions include:
+•	Can I remove the biometric information associated with the facial recognition feature?
+•	What information, if any, remains after I disable the feature?
+•	Could information collected for authentication subsequently be used for another purpose?
+•	Can I meaningfully withdraw my consent?
+These questions demonstrate why informed consent involves more than selecting an option during the initial setup of a device. Respect for autonomy requires understandable choices and meaningful control.
+Autonomy is also relevant to algorithmic nudging. AI systems should not use personal information in ways that covertly manipulate individual choices. Ethical governance should therefore ensure that technology supports human decision-making rather than undermining it.</p>
+<h2 id="justice-what-happens-when-facial-recognition-is-wrong">Justice: What Happens When Facial Recognition Is Wrong?</h2>
+<p>The principle of justice is particularly significant when considering algorithmic bias and discrimination.
+A facial recognition system may produce errors, but the ethical concern becomes more serious when errors or disadvantages are not distributed equitably across populations. In such circumstances, a technical limitation can become an issue involving discrimination, equality, and social justice.
+Consider a hypothetical situation in which facial recognition technology is used during a criminal investigation and incorrectly identifies me as a suspect. The consequences would extend beyond a simple software error. A false identification could affect an individual&rsquo;s freedom, reputation, dignity, and confidence in public institutions.
+Justice therefore requires consideration of both how AI systems are developed and how they are deployed.
+Principles of fairness, accountability, and transparency (FAT) are particularly relevant. Developers and organizations should consider whether their systems perform equitably across different populations, how potential disparities are detected and addressed, and what mechanisms are available when automated systems cause harm.Fairness should therefore be treated as an ongoing governance responsibility rather than merely a technical objective evaluated before deployment.</p>
+<h2 id="explicability-who-is-accountable-when-something-goes-wrong">Explicability: Who Is Accountable When Something Goes Wrong?</h2>
+<p>The fifth principle is explicability, which concerns both understanding how AI systems operate and establishing responsibility for their outcomes.
+My case study raises an important question: if my biometric information is compromised or misused, who should be held responsible?
+This question lies at the heart of AI governance.
+Effective governance should establish responsibilities before harm occurs. Organizations involved in developing, implementing, or managing AI technologies should have clearly defined responsibilities regarding privacy, security, monitoring, auditing, complaints, and remedies.
+Explainable AI (XAI) can also contribute to explicability by helping individuals and organizations understand how AI-supported outcomes are produced. However, explanation alone is insufficient. Understanding why an outcome occurred has limited value if responsibility for addressing harmful consequences remains unclear.
+Explicability must therefore be connected to accountability.</p>
+<h2 id="deepfakes-and-the-risk-of-secondary-misuse">Deepfakes and the Risk of Secondary Misuse</h2>
+<p>Another concern raised by facial data is its potential for unauthorized secondary use, including digital impersonation and deepfake-related abuse.
+As generative AI technologies become increasingly sophisticated, realistic synthetic representations of individuals create new ethical concerns surrounding identity, consent, fraud, and reputational harm. These possibilities illustrate why biometric information deserves careful protection.
+An important principle in this context is purpose limitation. If biometric information is collected for authentication, this should not automatically imply consent for unrelated secondary uses.
+AI governance must therefore consider not only the intended purpose of data collection but also reasonably foreseeable risks arising from misuse.</p>
+<h2 id="beyond-compliance-the-importance-of-soft-ethics">Beyond Compliance: The Importance of Soft Ethics</h2>
+<p>Legal and regulatory requirements are essential components of responsible AI governance. However, ethical AI should not focus exclusively on the question, “Is this legal?”
+It should also consider, “Is this ethically justified?”
+This distinction demonstrates the importance of soft ethics. Soft ethics complements formal laws and regulations by encouraging developers, organizations, and policymakers to consider human dignity, fairness, responsibility, social consequences, and public trust.
+This is particularly important in rapidly developing areas such as facial recognition and generative AI, where technological capabilities may evolve faster than specific regulatory frameworks.
+An organization may technically comply with existing regulations while still using technology in ways that create ethical concerns. Consequently, responsible AI governance should aim for more than minimum legal compliance. It should incorporate ethical reflection throughout the design, implementation, monitoring, and evaluation of AI systems.</p>
+<h2 id="ai-governance-must-remain-human-centred">AI Governance Must Remain Human-Centred</h2>
+<p>Effective AI governance requires these ethical principles to operate together rather than in isolation.
+A privacy-protecting system that produces discriminatory outcomes cannot be considered fully ethical. Similarly, a technically fair system that users cannot understand may still create concerns about transparency and autonomy. A transparent system that exposes individuals to unnecessary risk also fails the principle of non-maleficence.
+Responsible AI governance should therefore incorporate several interconnected principles:</p>
+<p>•	Beneficence: Does the system create meaningful benefits for individuals and society?
+•	Non-maleficence: What foreseeable harms could occur, and how can they be prevented or mitigated?
+•	Autonomy: Do individuals retain meaningful choice and control?
+•	Justice: Are benefits, risks, and errors addressed fairly?
+•	Explicability: Can important AI-supported outcomes be understood, and is responsibility clearly established?
+These principles should operate alongside privacy, informed consent, transparency, accountability, fairness, security, and appropriate human oversight.</p>
+<h2 id="conclusion-my-face-should-remain-mine">Conclusion: My Face Should Remain Mine</h2>
+<p>Facial recognition demonstrates why data science ethics cannot be separated from technological innovation.
+Unlocking a smartphone with facial recognition may appear to be a minor everyday interaction, but the technology raises significant questions concerning privacy, security, consent, fairness, autonomy, accountability, governance, and individual rights.
+The objective should not necessarily be to reject facial recognition or artificial intelligence. Instead, the goal should be to ensure that these technologies are developed and governed in ways that remain human-centred and ethically responsible.
+Beneficence reminds us that AI should create meaningful value. Non-maleficence requires foreseeable harm to be prevented or minimized. Autonomy emphasizes meaningful choice and individual control. Justice requires attention to fairness and discriminatory impacts. Finally, explicability demands both transparency and accountability for significant AI-related outcomes.
+Ultimately, the most important question is not simply: “Can AI recognize my face?”
+A more important ethical question is: “Can AI systems recognize and respect my rights at the same time?”
+That is one of the fundamental challenges that responsible AI governance must address.</p>
+
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#convenience-and-ethical-responsibility">Convenience and Ethical Responsibility</a></li>
+    <li><a href="#beneficence-ai-should-promote-human-well-being">Beneficence: AI Should Promote Human Well-Being</a></li>
+    <li><a href="#non-maleficence-preventing-foreseeable-harm">Non-Maleficence: Preventing Foreseeable Harm</a></li>
+    <li><a href="#autonomy-preserving-meaningful-choice">Autonomy: Preserving Meaningful Choice</a></li>
+    <li><a href="#justice-what-happens-when-facial-recognition-is-wrong">Justice: What Happens When Facial Recognition Is Wrong?</a></li>
+    <li><a href="#explicability-who-is-accountable-when-something-goes-wrong">Explicability: Who Is Accountable When Something Goes Wrong?</a></li>
+    <li><a href="#deepfakes-and-the-risk-of-secondary-misuse">Deepfakes and the Risk of Secondary Misuse</a></li>
+    <li><a href="#beyond-compliance-the-importance-of-soft-ethics">Beyond Compliance: The Importance of Soft Ethics</a></li>
+    <li><a href="#ai-governance-must-remain-human-centred">AI Governance Must Remain Human-Centred</a></li>
+    <li><a href="#conclusion-my-face-should-remain-mine">Conclusion: My Face Should Remain Mine</a></li>
+  </ul>
+</nav>
+              </div>
+          </aside>
+          
+
+          
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              
+              <li class="list-inline-item"><a href="/tags/facial-recognition/"
+                target="_blank"
+              >Facial Recognition</a></li>
+              
+              <li class="list-inline-item"><a href="/tags/beneficence/"
+                target="_blank"
+              >Beneficence</a></li>
+              
+              <li class="list-inline-item"><a href="/tags/non-maleficence/"
+                target="_blank"
+              >Non-Maleficence</a></li>
+              
+              <li class="list-inline-item"><a href="/tags/justice/"
+                target="_blank"
+              >Justice</a></li>
+              
+              <li class="list-inline-item"><a href="/tags/explicability/"
+                target="_blank"
+              >Explicability</a></li>
+              
+              <li class="list-inline-item"><a href="/tags/soft-ethics/"
+                target="_blank"
+              >Soft Ethics</a></li>
+              
+              <li class="list-inline-item"><a href="/tags/deepfakes/"
+                target="_blank"
+              >Deepfakes</a></li>
+              
+              <li class="list-inline-item"><a href="/tags/ai-governance/"
+                target="_blank"
+              >AI Governance</a></li>
+              
+            </ul>
+          </aside>
+          
+
+          
+          <aside class="social">
+            <h5>Social</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://www.linkedin.com/feed/?shareActive=true&text=Blogs http%3a%2f%2flocalhost%3a1313%2fblogs%2fface_recognition%2f">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='https://twitter.com/share?text=The%20Ethical%20Dilemma%20Behind%20Facial%20Recognition&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fface_recognition%2f&hashtags=Facial%20recognition%2cBeneficence%2cNon-Maleficence%2cNon-Maleficence%2cJustice%2cExplicability%2cSoft%20ethics%2cDeepfakes%2cAI%20Governance'>
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=The%20Ethical%20Dilemma%20Behind%20Facial%20Recognition: http%3a%2f%2flocalhost%3a1313%2fblogs%2fface_recognition%2f">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='mailto:?subject=The%20Ethical%20Dilemma%20Behind%20Facial%20Recognition&amp;body=Check%20out%20this%20site http%3a%2f%2flocalhost%3a1313%2fblogs%2fface_recognition%2f'>
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  true ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+<script src="/js/readingTime.js"></script>
+
+
+
+  </div><footer>
+    
+
+
+  
+
+ 
+
+<div class="text-center pt-2">
+    
+
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+                <div class="pb-2">
+                    <a href="http://localhost:1313/" title="Régine Cicéron">
+                        <img alt="Footer logo" src="/fav.png"
+                            height="40px" width="40px">
+                    </a>
+                </div>
+            
+            &copy; 2026  All rights reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+        document.documentElement.classList.remove('dark');
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            document.documentElement.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+    <script>
+      
+      window.searchIndexURL = "/index.json";
+    </script>
+    <script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>

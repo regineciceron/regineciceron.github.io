@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Fri, 23 Oct 2026 22:41:10 +0530</lastBuildDate>
+			<lastBuildDate>Fri, 30 Oct 2026 22:41:10 +0530</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>The Ethical Dilemma Behind Facial Recognition</title>
+				<link>http://localhost:1313/blogs/face_recognition/</link>
+				<pubDate>Fri, 30 Oct 2026 22:41:10 +0530</pubDate>
+				<guid>http://localhost:1313/blogs/face_recognition/</guid>
+				<description>&lt;p&gt;Facial recognition has become an increasingly common feature of everyday digital life. Instead of entering a password or personal identification number (PIN), users can simply look at their smartphones to unlock them. This technology is fast, convenient, and seemingly harmless. However, facial biometric data is fundamentally different from a conventional password. If a password is compromised, it can be changed. An individual cannot simply replace their face.&#xA;This distinction raises an important ethical question: When I use facial recognition to unlock my smartphone, do I truly understand and control what happens to my biometric data?&#xA;I may not fully understand where my facial data is stored, who has access to it, how long it is retained, or what happens to it if I decide to stop using facial recognition. These uncertainties illustrate broader ethical concerns surrounding biometric technologies, including privacy, informed consent, security, algorithmic bias, accountability, and individual autonomy.&#xA;Examining these concerns through the principles of beneficence, non-maleficence, autonomy, justice, and explicability demonstrates why effective AI governance must extend beyond technical performance and legal compliance.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Behind the Data: The Ethical Dilemma of an “Anonymous” Survey</title>
 				<link>http://localhost:1313/blogs/placeholder-text/</link>

@@ -2,35 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/anonymity/</loc>
-    <lastmod>2026-10-23T22:41:10+05:30</lastmod>
+    <loc>http://localhost:1313/tags/ai-governance/</loc>
+    <lastmod>2026-10-30T22:41:10+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/placeholder-text/</loc>
-    <lastmod>2026-10-23T22:41:10+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/bias/</loc>
-    <lastmod>2026-10-23T22:41:10+05:30</lastmod>
+    <loc>http://localhost:1313/tags/beneficence/</loc>
+    <lastmod>2026-10-30T22:41:10+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2026-10-23T22:41:10+05:30</lastmod>
+    <lastmod>2026-10-30T22:41:10+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/fairness/</loc>
-    <lastmod>2026-10-23T22:41:10+05:30</lastmod>
+    <loc>http://localhost:1313/tags/deepfakes/</loc>
+    <lastmod>2026-10-30T22:41:10+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hashe/</loc>
-    <lastmod>2026-10-23T22:41:10+05:30</lastmod>
+    <loc>http://localhost:1313/tags/explicability/</loc>
+    <lastmod>2026-10-30T22:41:10+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/noise/</loc>
-    <lastmod>2026-10-23T22:41:10+05:30</lastmod>
+    <loc>http://localhost:1313/tags/facial-recognition/</loc>
+    <lastmod>2026-10-30T22:41:10+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/privacy/</loc>
-    <lastmod>2026-10-23T22:41:10+05:30</lastmod>
+    <loc>http://localhost:1313/tags/justice/</loc>
+    <lastmod>2026-10-30T22:41:10+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/re-identification/</loc>
-    <lastmod>2026-10-23T22:41:10+05:30</lastmod>
+    <loc>http://localhost:1313/tags/non-maleficence/</loc>
+    <lastmod>2026-10-30T22:41:10+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-10-23T22:41:10+05:30</lastmod>
+    <lastmod>2026-10-30T22:41:10+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -47,8 +44,11 @@
                 href="http://localhost:1313/fr/"
                 />
   </url><url>
+    <loc>http://localhost:1313/tags/soft-ethics/</loc>
+    <lastmod>2026-10-30T22:41:10+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-10-23T22:41:10+05:30</lastmod>
+    <lastmod>2026-10-30T22:41:10+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -64,6 +64,33 @@
                 hreflang="fr"
                 href="http://localhost:1313/fr/tags/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/blogs/face_recognition/</loc>
+    <lastmod>2026-10-30T22:41:10+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/anonymity/</loc>
+    <lastmod>2026-10-23T22:41:10+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/placeholder-text/</loc>
+    <lastmod>2026-10-23T22:41:10+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/bias/</loc>
+    <lastmod>2026-10-23T22:41:10+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/fairness/</loc>
+    <lastmod>2026-10-23T22:41:10+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hashe/</loc>
+    <lastmod>2026-10-23T22:41:10+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/noise/</loc>
+    <lastmod>2026-10-23T22:41:10+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/privacy/</loc>
+    <lastmod>2026-10-23T22:41:10+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/re-identification/</loc>
+    <lastmod>2026-10-23T22:41:10+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/transparency/</loc>
     <lastmod>2026-10-23T22:41:10+05:30</lastmod>
